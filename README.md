@@ -44,4 +44,7 @@ Al ejecutar las migraciones  se crean los datos por defecto para: Productos, Cli
    }
 ```
 * GET /orders/: consulta todas las ordenes registradas
-* GET /orders/customer/<customer_id>/?init_date=&end_date= : Obtiene todas las ordenes de un cliente en un rango de fechas. el parametro customer_id es el identificador del cliente al que se le quiere consultar las ordenes.
+* GET /orders/customer/<customer_id>/?init_date=&end_date= : Obtiene todas las ordenes de un cliente en un rango de fechas. 
+  - **_customer_id_**: es el identificador del cliente al que se le quiere consultar las ordenes.
+  - **_init_date_**: es la fecha inicial del rango que se quiere filtrar, debe tener el formato aaaa-mm-dd
+  - **_end_date_**: es la fecha final del rango que se quiere filtrar, debe tener el formato aaaa-mm-dd
