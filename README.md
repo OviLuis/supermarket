@@ -22,10 +22,14 @@ Al ejecutar las migraciones  se crean los datos por defecto para: Productos, Cli
 
 ## Documentación API
 
-**API root**: http://localhost:8000/api/v1
+### **_API root_**: 
+
+http://localhost:8000/api/v1
+
+### **_Recursos_**
 
 * POST /orders/ : permite crear un nueva orden para un cliente:
-## ejemplo
+### ejemplo
 ```json
 {
        "customer_id": 1,
