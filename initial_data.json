@@ -1,0 +1,107 @@
+[
+  {
+    "model": "products.Product",
+    "pk": 1,
+    "fields": {
+      "name": "Product A",
+      "product_description": "Product A",
+      "price": "500"
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 2,
+    "fields": {
+       "name": "Product B",
+      "product_description": "Product B",
+      "price": "600"
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 3,
+    "fields": {
+       "name": "Product C",
+      "product_description": "Product C",
+      "price": "700"
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 4,
+    "fields": {
+       "name": "Product D",
+      "product_description": "Product D",
+      "price": "800"
+    }
+  },
+  {
+    "model": "products.Customer",
+    "pk": 1,
+    "fields": {
+      "name": "Manny Bharma",
+      "email": "mb@example.com"
+    }
+  },
+  {
+    "model": "products.Customer",
+    "pk": 2,
+    "fields": {
+      "name": "Alan Briggs",
+      "email": "ab@example.com"
+    }
+  },
+  {
+    "model": "products.Customer",
+    "pk": 3,
+    "fields": {
+      "name": "Mike Simm",
+      "email": "ms@example.com"
+    }
+  },
+  {
+    "model": "products.CustomerProduct",
+    "pk": 1,
+    "fields": {
+      "customer_id": 1,
+      "product_id": 1
+    }
+  },
+  {
+    "model": "products.CustomerProduct",
+    "pk": 2,
+    "fields": {
+      "customer_id": 1,
+      "product_id": 2
+    }
+  },{
+    "model": "products.CustomerProduct",
+    "pk": 3,
+    "fields": {
+      "customer_id": 1,
+      "product_id": 3
+    }
+  },{
+    "model": "products.CustomerProduct",
+    "pk": 4,
+    "fields": {
+      "customer_id": 2,
+      "product_id": 2
+    }
+  },{
+    "model": "products.CustomerProduct",
+    "pk": 5,
+    "fields": {
+      "customer_id": 3,
+      "product_id": 1
+    }
+  },{
+    "model": "products.CustomerProduct",
+    "pk": 6,
+    "fields": {
+      "customer_id": 3,
+      "product_id": 4
+    }
+  }
+
+]
